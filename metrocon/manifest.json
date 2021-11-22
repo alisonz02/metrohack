@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+
+  "name": "tbd",
+  "description": "This extension will help you complete your tasks!",
+  "version": "1.0",
+
+  "icons" : {
+    "16": "/icon/checkmark16.png",
+      "32": "/icon/checkmark32.png",
+      "48": "/icon/checkmark48.png",
+      "128": "/icon/checkmark128.png"
+    },
+    
+  "action": {
+   "default_icon": "/icon/checkmark.png",
+   "default_popup": "popup.html"
+  },
+  
+  "permissions": ["activeTab"]
+
+}
